@@ -1,0 +1,18 @@
+.score_bar {
+	width:100%;
+	display: flex;
+}
+
+.score_section {
+	width: 50%;
+}
+
+.user_avatar {
+	width: 53.47px;
+	height: 53.47px;
+}
+
+.sm-fab {
+	width: 28px;
+	height: 28px;
+}
