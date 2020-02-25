@@ -5,6 +5,12 @@
 
 .score_section {
 	width: 50%;
+	display: flex;
+}
+
+.user_info {
+	width: 53.47px;
+	margin-right: 31px;
 }
 
 .user_avatar {
