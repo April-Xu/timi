@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Circle</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class='top_bar'>
+    	<div class='score_bar'>
+    		<div class = 'score_section' id = 'score_1'>
+    				<div class='user_info' id = 'my_user_info'>
+	    				<img class='user_avatar' src = 'assets/images/me_user.png'>
+	    				<span>CCAdov</span>
+    				</div>
+	    			<div class='live_info' id = 'my_live_info'>
+	    				<div class='money'>
+		    				<img class = 'sm-fab' src='assets/images/fa-solid_coins.png'>
+		    				<span>$350</span>
+	    				</div>
+		    			<div class='circle_left'>
+		    				<img class = 'sm-fab' src='assets/images/Ellipse.png'>
+		    				<span>6/10</span>
+		    			</div>
+	    			</div>				
+    		</div>
+
+    		<!-- <div class='left-tri'></div>
+
+    		<div class='right-tri'></div> -->
+
+    		<div class = 'score_section' id = 'score_2'>
+    			<div class='user_info' id = 'other_user_info'>
+    				<img class='user_avatar' src = 'assets/images/other_user.png'>
+    				<span>CC_Star</span>
+    			</div>
+    			<div class='live_info' id = 'other_live_info'>
+	    			<div class='money'>
+	    				<img class = 'sm-fab' src='assets/images/fa-solid_coins.png'>
+	    				<span>$50</span>
+	    			</div>
+	    			<div class='circle_left'>
+	    				<img class = 'sm-fab' src='assets/images/Ellipse.png'>
+	    				<span>9/10</span>
+	    			</div>
+	    		</div>
+    		</div>
+    		
+    	</div>
+    	<div class='time_feedback'>
+    		<p id = 'time'>&#9201; 69s</p>
+    		<p id = 'race_feedback'>别放弃！你可以的！</p>
+    	</div>
+    </div>
+    <div class='main'></div>
+
+    <div class='interaction_bar'>
+    	<div class='circle_center'>
+    		<div class='circle_center_1'>
+    			<img src = 'assets/images/circle_1.png'><span id='left_circle_1'>3</span>
+    		</div>
+    		
+    		<div class='circle_center_2'>
+    			<img src = 'assets/images/circle_2.png'><span id='left_circle_2'>4</span>
+    		</div>
+
+    		<div class='circle_center_3'>
+    			<img src = 'assets/images/circle_3.png'><span id='left_circle_3'>3</span>
+    		</div>
+    		
+    	</div>
+    	<div class='main_int'>
+    		<img id = 'hand' src = 'assets/images/hand.png'>
+    		<img id = 'ring' src = 'assets/images/ring.png'>
+    	</div>
+    </div>
+
+    <div class='interaction_bar'></div>
+
+<!-- hammer.js -->
+<script src="js/hammer.js"></script>
+<!-- custom.js -->
+<script src="js/custom.js"></script>
+
+</body>
+</html>
