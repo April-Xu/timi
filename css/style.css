@@ -154,3 +154,103 @@ body {
 	position: absolute;
 	left:13px;
 }
+
+.row-1 image{
+	width: 57.78px;
+    height: 57.75px;
+}
+
+.row-2 image{
+	width: 60.67px;
+    height: 60.64px;
+}
+
+
+.row-3 image{
+	width: 66.92px;
+    height: 66.88px;
+}
+
+.row-4 image{
+	width: 78px;
+    height: 77.97px;
+}
+
+.row-5 image {
+	width: 86.67px;
+    height: 86.63px;
+}
+
+
+#egg1{
+    left: 43px;
+    top: 223px;
+    position: absolute;
+}
+
+#egg2{
+    left: 158px;
+    top: 223px;
+    position: absolute;
+}
+
+#egg3{
+    left: 274px;
+    top: 223px;
+    position: absolute;
+}
+
+#egg4{
+    left: 100px;
+    top: 294px;
+    position: absolute;
+}
+
+#egg5{
+    left: 214px;
+    top: 294px;
+    position: absolute;
+}
+
+#egg6{
+    left: 153px;
+    top: 367px;
+    position: absolute;
+}
+
+#egg7{
+    left: 83px;
+    top: 445px;
+    position: absolute;
+}
+
+#egg8{
+    left: 211px;
+    top: 445px;
+    position: absolute;
+}
+
+#egg9{
+    left: 19px;
+    top: 528px;
+    position: absolute;
+}
+
+#egg10{
+    left: 145px;
+    top: 528px;
+    position: absolute;
+}
+
+#egg11{
+    left: 269px;
+    top: 528px;
+    position: absolute;
+}
+
+.table{
+    position: relative;
+    width: 100%;
+    height: 550px;
+
+}
